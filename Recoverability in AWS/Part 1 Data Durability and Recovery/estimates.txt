@@ -1,0 +1,13 @@
+Minimum RTO for a single AZ outage: 1 - 2 mins or more
+RDS automatically switches to the standby replica if Multi AZ is enabled so it will only take 
+the failover time which takes like 1 to 2 mins 
+
+Minimum RTO for a single region outage: 10 - 20 mins
+When a an RTO for a single region happens it requires the person in charge of monitoring to promote 
+the replica on the secondary region and also to update the DB url on the application using it.
+
+Minimum RPO for a single AZ outage: 0 mins
+Because we have setup Multi AZ we have a copy of the primary database so it won't be loss of data
+
+Minimum RPO for a single region outage: 0 mins
+There won't be no data loss because we have a repplica on another region
