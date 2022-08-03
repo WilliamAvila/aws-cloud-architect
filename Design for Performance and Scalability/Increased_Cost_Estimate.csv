@@ -3,21 +3,15 @@ Increased_Cost_Estimate,US East (N. Virginia),S3,S3 Standard,0,235.52,2826.24,US
 Increased_Cost_Estimate,US East (N. Virginia),S3,Data Transfer,0,921.6,11059.20,USD,"DT Inbound: Internet (0 TB per month), DT Outbound: Internet (10 TB per month)"
 Increased_Cost_Estimate,US East (N. Virginia),ALB,Application Load Balancer,0,79.57,954.84,USD,Number of Application Load Balancers (2)
 Increased_Cost_Estimate,US East (N. Virginia),CDN,Amazon CloudFront,0,110.5,1326.00,USD,"Data transfer out to internet (100 GB per month), Data transfer out to origin (100 GB per month), Number of requests (HTTPS) (100 million per month)"
-Increased_Cost_Estimate,Canada (Central),RDS,Amazon RDS for PostgreSQL,0,3843.7120000000004,46124.54,USD,"Storage volume (General Purpose SSD (gp2)), Storage amount (3 TB per month), Nodes (2), Instance Type (db.m5.2xlarge), Utilization (On-Demand only) (100 %Utilized/Month), Deployment Option (Multi-AZ), Pricing Model (OnDemand)"
-Increased_Cost_Estimate,Canada (Central),VPC,VPN Connection,0,0,0.00,USD,Working days per month (22)
-Increased_Cost_Estimate,Canada (Central),VPC,Network Address Translation (NAT) Gateway,0,1301.8,15621.60,USD,Number of NAT Gateways (2)
-Increased_Cost_Estimate,Canada (Central),VPC,Data Transfer,0,1792,21504.00,USD,"DT Inbound: Internet (20 TB per month), DT Outbound: Internet (20 TB per month), DT Intra-Region: (0 TB per month), Data transfer cost (1792)"
-Increased_Cost_Estimate,Canada (Central),EC2,Amazon EC2,0,2006.64,24079.68,USD,"Operating system (Linux), Quantity (12), Pricing strategy (On-Demand Instances), Storage amount (100 GB), Instance type (m5.xlarge)"
+Increased_Cost_Estimate,Canada (Central),RDS,Amazon RDS for PostgreSQL,0,3863.168,46358.02,USD,"Storage volume (General Purpose SSD (gp2)), Storage amount (2 TB per month), Nodes (2), Instance Type (db.m5.2xlarge), Utilization (On-Demand only) (100 %Utilized/Month), Deployment Option (Multi-AZ), Pricing Model (OnDemand), Additional backup storage (5 TB)"
+Increased_Cost_Estimate,Canada (Central),EC2,Amazon EC2,0,3881.28,46575.36,USD,"Operating system (Linux), Quantity (12), Pricing strategy (On-Demand Instances), Storage amount (100 GB), Instance type (m5.2xlarge)"
 Increased_Cost_Estimate,US East (N. Virginia),VPC,VPN Connection,0,0,0.00,USD,Working days per month (22)
 Increased_Cost_Estimate,US East (N. Virginia),VPC,Network Address Translation (NAT) Gateway,0,1171.62,14059.44,USD,Number of NAT Gateways (2)
 Increased_Cost_Estimate,US East (N. Virginia),VPC,Data Transfer,0,1792,21504.00,USD,"DT Inbound: Internet (20 TB per month), DT Outbound: Internet (20 TB per month), DT Intra-Region: (0 TB per month), Data transfer cost (1792)"
-Increased_Cost_Estimate,US East (N. Virginia),RDS,Amazon RDS for PostgreSQL,0,3492.16,41905.92,USD,"Storage volume (General Purpose SSD (gp2)), Storage amount (3 TB per month), Nodes (2), Instance Type (db.m5.2xlarge), Utilization (On-Demand only) (100 %Utilized/Month), Deployment Option (Multi-AZ), Pricing Model (OnDemand)"
-Increased_Cost_Estimate,US East (N. Virginia),EC2,Amazon EC2,0,1801.92,21623.04,USD,"Operating system (Linux), Quantity (12), Pricing strategy (On-Demand Instances), Storage amount (100 GB), Instance type (m5.xlarge)"
+Increased_Cost_Estimate,US East (N. Virginia),EC2,Amazon EC2,0,3483.84,41806.08,USD,"Operating system (Linux), Quantity (12), Pricing strategy (On-Demand Instances), Storage amount (100 GB), Instance type (m5.2xlarge)"
+Increased_Cost_Estimate,US East (N. Virginia),RDS,Amazon RDS for PostgreSQL,0,3507.52,42090.24,USD,"Storage volume (General Purpose SSD (gp2)), Storage amount (2 TB per month), Nodes (2), Instance Type (db.m5.2xlarge), Utilization (On-Demand only) (100 %Utilized/Month), Deployment Option (Multi-AZ), Pricing Model (OnDemand), Additional backup storage (5 TB)"
 
 
-Monthly Cost 18,549.04 USD
-
-Increased the compute capacity of EC2 instances and RDS databases also replicated the instances on another Region to get more users closers to that Region and as a way to get a backup of the DBs
 
 Acknowledgement
 "* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services."
