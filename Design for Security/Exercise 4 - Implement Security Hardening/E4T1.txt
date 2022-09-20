@@ -1,0 +1,5 @@
+#1.Identify 2-3 changes that can be made to our environment to prevent an SSH brute force attack from the internet.
+Update Web app SG to allow requests only from the load balancer
+remove ssh password login
+#2.Neither instance should have had access to the secret recipes bucket; even in the instance that API credentials were compromised how could we have prevented access to sensitive data?
+By enabling server side encryption with KMS keys and access to those keys should be assigned to specific role that want access to that bucket 

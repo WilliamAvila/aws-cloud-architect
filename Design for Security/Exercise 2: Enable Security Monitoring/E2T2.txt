@@ -1,0 +1,5 @@
+#Vulnerabilities
+1. Redirection from http to https is not enabled in ELB
+2. S3 server side encyrption not enabled
+3. logs enabled for S3 and ELB
+4. Web app SG is allowing SSH access from all sources

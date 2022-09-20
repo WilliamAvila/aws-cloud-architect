@@ -1,0 +1,6 @@
+#What findings were detected related to the brute force attack?
+UnauthorizedAccess:EC2/SSHBruteForce
+the findings will be that the service instance is under attack and the attack instance is performing SSH brute force attacks aginst the service instance
+
+#How GuardDuty may have detected this attack
+Because GuardDuty performs scanning on network traffic and it detected the SSH brute force attack by scanning port 22

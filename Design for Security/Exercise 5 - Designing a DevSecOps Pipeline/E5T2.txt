@@ -1,0 +1,11 @@
+1. Regula
+this tool evaluates IaC files for potential security and compliance violations prior to deployment
+it detects S3 encyrption and over permisive SG
+
+2. Anchore
+It scans container images for OS vulnerabilities and can detect malware and trojans
+
+3. AWS Config, GuardDuty and Security hub
+AWS Config detects configuration vulnerabilities in AWS resources
+GuardDuty can continusly scan AWS environment for attacks and vulnerabilities
+Security Hub help us find security related issues in AWS services

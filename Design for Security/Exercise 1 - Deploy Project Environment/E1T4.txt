@@ -1,0 +1,7 @@
+ #Poor Practices
+ 1. S3BucketRecipesSecret S3 bucket doesn't have server side encryption enabled
+ anyone with access to the account can read this secret data
+
+ 2.Web app SG Inbound rules are too open
+SSH directly to the server should be disabled and it should only allow requests coming from the ALB
+ 
